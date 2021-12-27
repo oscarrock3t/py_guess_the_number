@@ -45,5 +45,6 @@ def play():
     start()
 
 
-print('Начать игру?')
-start()
+if __name__ == '__main__':
+    print('Начать игру?')
+    start()
